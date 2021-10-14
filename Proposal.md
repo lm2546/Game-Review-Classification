@@ -6,7 +6,6 @@
 Nowadays, many people prefer playing video games to release their press or have fun in their free time. Some of them may be confused about how to choose a game which is worth playing. Steam is one of the most popular game platforms. Review and recommendation will be a primary point which people will be checked. However some reviews and recommendations may be deceptive. We will use a dataset of about 40 thousand reviews of games in the steam. Hence we will analyze the review from users to predict the truth of the review and recommendation. Our final goal is to distinguish  whether the game is recommended or not and whether the recommendation of a game is true or not by entering a review.
  
 ## Description 
-<img src='img/data.png'>
 
 | Variable Name | Description |
 |------------|---------------
