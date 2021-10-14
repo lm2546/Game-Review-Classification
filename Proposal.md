@@ -17,9 +17,9 @@ Nowadays, many people prefer playing video games to release their press or have 
 
 ## Method:
 Markup: 1. What modeling approach do you intend to use?
-		1. SVM/Naive Bayes
-		2. Decision Tree
-		3. (Probably) BERT: 
+		1.SVM/Naive Bayes
+		2.Decision Tree
+		3.(Probably) BERT: 
 
 
 	2. What data do you intend to use?
