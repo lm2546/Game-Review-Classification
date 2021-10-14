@@ -16,7 +16,7 @@ Nowadays, many people prefer playing video games to release their press or have 
 | review | The text of user review |
 
 ## Method:
-1. What modeling approach do you intend to use?<br>
+1. What modeling approach do you intend to use?
 	<br>1.SVM/Naive Bayes
 	<br>2.Decision Tree
 	<br>3.(Probably) BERT: 
