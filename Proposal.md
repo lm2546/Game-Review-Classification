@@ -1,5 +1,8 @@
 # ANLY-580-Final Project Proposal
-### Lin Meng, Haoyu Wang, Yongrui Chen
+## Group Member:
+Lin Meng (lm1398)
+Haoyu Wang (hw468)
+Yongrui Chen (yc910)
 
 
 ## Brief: 
