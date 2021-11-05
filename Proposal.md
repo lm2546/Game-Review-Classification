@@ -11,8 +11,8 @@ Nowadays, many people prefer playing video games to release their press or have 
 ## Description 
 
 ### Variables
-There are 8 variables in the origin data. However, there are 4 variables will be used. All the variables and description of each variable are in the below table.
-
+There are 8 variables in the origin data. However, there are 4 variables will be used. All the variables and description of each variable are in the below table. The data link is in the below.<br>
+Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<br>
 | Variable Name | Description |
 |------------|---------------
 | helpful | How many other player think the review is helpful  |
@@ -40,13 +40,11 @@ We plan to use create a label with 6 classes. We will base on the quantile of he
 	<br>3.Logistic
 	<br>4.(Probably) BERT 
 	<br>
-2. What data do you intend to use?<br>
-	Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<br>
-3. How will your system be evaluated and what are the evaluation criteria?<br>
+2. How will your system be evaluated and what are the evaluation criteria?<br>
 	We will split data to train data and test data by 70% and 30%. Use the model created by train data to predict the recommendation of test data. If the rate of accuracy, precision, F1-Score is about 80%, we will conclude our model will pass the evaluation.<br>
-4. Are there any special computational/hardware considerations?<br>
+3. Are there any special computational/hardware considerations?<br>
 	We have approximately 40 thousand reviews from steam data. Although the data  is not  very  big, we may need to use a neural networking algorithm.  If it wok slow on our laptop, we may need to use the AWS.
-5. What are the biggest unknowns that might dictate the success or failure of this project?<br>
+4. What are the biggest unknowns that might dictate the success or failure of this project?<br>
 	We classify the review as deceptive and truthful based on the hour played and helpful number. If the number of helpful answers is greater than medium or hour played is greater than 75% quantile, we will say this review is true, otherwise it is deceptive.<br>
 
 ## Result:
