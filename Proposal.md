@@ -7,6 +7,9 @@ Nowadays, many people prefer playing video games to release their press or have 
  
 ## Description 
 
+### Variables
+There are 8 variables in the origin data. However, there are 4 variables will be used. All the variables and description of each variable are in the below table.
+
 | Variable Name | Description |
 |------------|---------------
 | helpful | How many other player think the review is helpful  |
@@ -14,6 +17,18 @@ Nowadays, many people prefer playing video games to release their press or have 
 | recommendation | Whether reviewer recommend the game or not |
 | review | The text of user review |
 
+### New Variables
+
+
+### Satitiscal Summary
+||helpful|hour_played|
+|------------|---------------|---------------|
+|Min|0|0|
+|1st Quantile|0|62|
+|Median|0|190|
+|Mean|1.04|364/1|
+|3rd Quantile|0|450|
+|Max|28171|31962|
 ## Method:
 1. What modeling approach do you intend to use?
 	<br>1.SVM/Naive Bayes
