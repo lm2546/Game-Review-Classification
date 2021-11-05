@@ -26,7 +26,7 @@ There are 8 variables in the origin data. However, there are 4 variables will be
 |Min|0|0|
 |1st Quantile|0|62|
 |Median|0|190|
-|Mean|1.04|364/1|
+|Mean|1.04|364.1|
 |3rd Quantile|0|450|
 |Max|28171|31962|
 ## Method:
