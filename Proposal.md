@@ -17,9 +17,6 @@ There are 8 variables in the origin data. However, there are 4 variables will be
 | recommendation | Whether reviewer recommend the game or not |
 | review | The text of user review |
 
-### New Variables
-
-
 ### Satitiscal Summary
 ||helpful|hour_played|
 |------------|---------------|---------------|
@@ -29,6 +26,10 @@ There are 8 variables in the origin data. However, there are 4 variables will be
 |Mean|1.04|364.1|
 |3rd Quantile|0|450|
 |Max|28171|31962|
+
+### Label
+We plan to use create a label with 6 classes. We will base on the quantile of helpful and hour played to divide all the data into three classes which are truth, doubted, and deceptive. Then we combine these with the recommendation to get our final label with 6 classes which are Recommended_Truth, Recommended_Doubted,Recommended_Deceptive, Not_Recommended_Truth，Not_Recommended_Doubted, and Not_ Recommended_Deceptive.
+
 ## Method:
 1. What modeling approach do you intend to use?
 	<br>1.SVM/Naive Bayes
