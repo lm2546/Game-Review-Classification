@@ -34,7 +34,8 @@ We plan to use create a label with 6 classes. We will base on the quantile of he
 1. What modeling approach do you intend to use?
 	<br>1.SVM/Naive Bayes
 	<br>2.Decision Tree
-	<br>3.(Probably) BERT: 
+	<br>3.Logistic
+	<br>4.(Probably) BERT 
 	<br>
 2. What data do you intend to use?<br>
 	Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<br>
