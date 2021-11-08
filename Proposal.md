@@ -15,10 +15,10 @@ There are 8 variables in the origin data. However, there are 4 variables will be
 Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<br>
 | Variable Name | Description |
 |------------|---------------
-| helpful | How many other player think the review is helpful  |
-| hour_playred | How many hour a reviewer play the game before make a review |
-| recommendation | Whether reviewer recommend the game or not |
-| review | The text of user review |
+| helpful | How many other players think the review is helpful  |
+| hour_played | How many hours a reviewer play the game when making a review |
+| recommendation | Whether the reviewer recommended the game or not |
+| review | The content of the review |
 
 ### Satitiscal Summary
 ||helpful|hour_played|
@@ -34,7 +34,8 @@ Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<
 <a href="Visualizations/distribution_of_labels.html" target="_blank">
 {% include Visualizations/distribution_of_labels.html %}
 
-### Label
+
+#### Label
 We plan to use create a label with 6 classes. We will base on the quantile of helpful and hour played to divide all the data into three classes which are truth, doubted, and deceptive. Then we combine these with the recommendation to get our final label with 6 classes which are Recommended_Truth, Recommended_Doubted,Recommended_Deceptive, Not_Recommended_Truth，Not_Recommended_Doubted, and Not_ Recommended_Deceptive.
 
 ## Method:
