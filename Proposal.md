@@ -32,6 +32,9 @@ Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<
 
 ### EDA
 <img src='Visualizations/newplot.png'>
+
+[here](Visualizations/distribution_of_labels.html)
+
 ![Donwload Interavtive Plot] (https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Visualizations/distribution_of_labels.html)<br>
 
 {% include Visualizations/distribution_of_labels.html %}
