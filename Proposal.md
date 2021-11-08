@@ -32,7 +32,8 @@ Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<
 
 ### EDA
 <img src='Visualizations/newplot.png'>
-[Donwload Interavtive Plot] (Visualizations/newplot.png)
+[Donwload Interavtive Plot] (Visualizations/newplot.png)<br>
+
 {% include Visualizations/distribution_of_labels.html %}
 
 
