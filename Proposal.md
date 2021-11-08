@@ -31,9 +31,7 @@ Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<
 |Max|28171|31962|
 
 ### EDA
-![plotly plot with python](Visualizations/distribution_of_labels.html)
-
-
+<a href="Visualizations/distribution_of_labels.html" target="_blank">
 {% include Visualizations/distribution_of_labels.html %}
 
 ### Label
