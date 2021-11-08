@@ -32,8 +32,7 @@ Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<
 
 ### EDA
 
-![alt text](Visualizations/distribution_of_labels.html)
-
+<iframe src="Visualizations/distribution_of_labels.html" height=800px width=800px></iframe>
 ### Label
 We plan to use create a label with 6 classes. We will base on the quantile of helpful and hour played to divide all the data into three classes which are truth, doubted, and deceptive. Then we combine these with the recommendation to get our final label with 6 classes which are Recommended_Truth, Recommended_Doubted,Recommended_Deceptive, Not_Recommended_Truth，Not_Recommended_Doubted, and Not_ Recommended_Deceptive.
 
