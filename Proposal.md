@@ -34,10 +34,11 @@ Data Link: Stream Reviews: https://www.kaggle.com/luthfim/steam-reviews-dataset<
 <img src='Visualizations/newplot.png'>
 
 [Donwload Interavtive Plot](Visualizations/distribution_of_labels.html)
+<br>
 [View Interactive Plot](https://linmeng.georgetown.domains/580/distribution_of_labels.html)
 
 
-{% include Visualizations/distribution_of_labels.html %}
+
 
 
 #### Label
