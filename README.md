@@ -6,5 +6,21 @@ Haoyu Wang (hw468)<br>
 Yongrui Chen (yc910)<br>
 
 ## Proposal:
-The link of our proposal is below.
-https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Proposal.md
+
+[Propsal](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Proposal.md)
+
+
+## Menu: 
+
+### 1. Data Mungining
+[Originial Data(zip)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/data/steam_reviews.zip)
+
+### 2. Exploring Data Analysis (EDA)
+
+### 3. Decision Tree
+
+### 4. NB/SVM
+
+### 5. Demo
+
+### 6. Report
