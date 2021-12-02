@@ -16,14 +16,13 @@ warnings.filterwarnings('ignore')
 # In[3]:
 
 
-def demo(text):
-    file=os.path.dirname(os.getcwd())
-    model=pickle.load(open(file+'\\Model\\log_model.pkl', 'rb'))
-    Tfidf_reco=pickle.load(open(file+'\\Model\\Tfidf_reco.pkl', 'rb'))
+def result(text):
+    model=pickle.load(open('log_model.pkl', 'rb'))
+    Tfidf_reco=pickle.load(open('Tfidf_reco.pkl', 'rb'))
     DTM=Tfidf_reco.transform([text])
     result=model.predict(DTM)[0]
     feature_importances = pd.DataFrame(model.coef_.T,
-                                   index = model.feature_names_in_,
+                                   index = Tfidf_reco.get_feature_names(),
                                    columns=['importance']).sort_values('importance', ascending=False)
     feature_importances=feature_importances['importance']*np.var(feature_importances['importance'])
     feature_importances=feature_importances.sort_values(key=abs,ascending=False)
@@ -43,16 +42,44 @@ def demo(text):
             return Style.RESET_ALL + word
     print(Style.RESET_ALL + '***********Text**********')
     print(' '.join(map(lambda word: paint(word, positive, negative),text.split())))
+    all_words=list(feature_importances.index)
+    origin_words=text.split()
+    review_words=[]
+    words_value=[]
+    for i in origin_words:
+        if i in positive or i in negative:
+            review_words.append(i)
+            words_value.append(feature_importances[all_words.index(i)])
+    df2=pd.DataFrame()
+    df2['Words']=review_words
+    df2['Value']=words_value
+    def support(row):
+        if row['Value']>0 :
+            return('Recommended')
+        else:
+            return('Not recommended')
+    df2['NP']=df2.apply (lambda row: support(row), axis=1)
+    df2
+    fig = px.bar(df2, x='Value',y='Words',color='NP',
+                color_discrete_sequence=['#ff796c','#c7fdb5'],
+                title='Review Key Words Importance', orientation='h')
+    print(Style.RESET_ALL + '***********Review Key Words Importance**********')
+    fig.show()
     prob=model.predict_proba(DTM)
     df=pd.DataFrame(prob.T,columns=['Rate'])
     df['Recommendation']=['Not Recommended','Recommended']
     fig = px.bar(df, x='Recommendation', y='Rate',color='Recommendation',
              color_discrete_sequence=['#ff796c','#c7fdb5'],
-             title='Recommendation Rate')
-    print(Style.RESET_ALL + '***********Visualization**********')
+             title='Recommendation Probability')
+    print(Style.RESET_ALL + '***********Recommendation Probability**********')
     fig.show()
-
+# In[]
+def demo():
+    text=input('Enter the review you want to check. If you want quit, please input quit.')
+    if text != 'quit':
+        result(text)
+        demo()
+    else:
+        print('Thank you.')
 # In[]:
-
-text=input('Enter the review you want to check:')
-demo(text)
+demo()
