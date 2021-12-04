@@ -26,11 +26,11 @@ Yongrui Chen (yc910)<br>
 [Code file(ipynb)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Model/SVM.ipynb)
 
 ### 5. Bert
-[Folder](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Model/Bert.ipynb)
+[Folder](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/tree/main/Model/Bert)
 
 ### 6. Logistic
 [Code file(ipynb)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Model/logistic.ipynb)
 
 ### 7. Demo
-[Zip)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/releases/tag/V.2.1)
+[Zip](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/releases/tag/V.2.1)
 ### 8. Report
