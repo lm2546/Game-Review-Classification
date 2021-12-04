@@ -59,7 +59,9 @@ def result(text):
         else:
             return('Not recommended')
     df2['NP']=df2.apply (lambda row: support(row), axis=1)
-    df2
+    ro=['Recommended','Not recommended']
+    df2['NP'] = pd.Categorical(df2['NP'], categories=ro, ordered=True)
+    df2=df2.sort_values(by='NP',ascending= False)
     fig = px.bar(df2, x='Value',y='Words',color='NP',
                 color_discrete_sequence=['#ff796c','#c7fdb5'],
                 title='Review Key Words Importance', orientation='h')
