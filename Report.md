@@ -228,13 +228,13 @@ Training and testing BERT models is a highly time-consuming and RAM-requiring pr
 The total epochs were set as 10, and in the base epoch, the average training loss was 12%. And the first 5 and last 4 layers of every epoch were visualized as Figure 17. Originally, 768 features were contained in the output, to reduce the dimensions, PCA was complemented here. Due to the plots below, for every subplot, starting from layer 1, the points are rather scattered and random, however, when moving along the layer, in layer 12, the points are well classified into 2 labels. After passing all the epochs, the average training loss ultimately descended to only 3%. 
 
 <p align="center">
-   <img src=Visualizations\BERT3.jpg alt="Figure 18: BERT classification with epochs" width="300" height="400"/>
+   <img src=Visualizations\BERT3.jpg alt="Figure 18: BERT classification with epochs"/>
 </p>
 <p align="center">Figure 18: BERT classification with epochs </p>
 
 To better understand the attention layer, an attention layer network were also created, which has 12 layers and 12 heads.
 <p align="center">
-   <img src=Visualizations\Neuron_view_bert.gif alt="Figure 19: Confusion Matrix of BERT"/>
+   <img src=Visualizations\Neuron_view_bert.gif alt="Figure 19: Confusion Matrix of BERT"  width="300" height="400"/>
 </p>
 <p align="center">Figure 19: Confusion Matrix of BERT </p>
 
