@@ -32,8 +32,6 @@ The dataset used in the research is from the Steam game reviews which has more t
 </p>
   
 
->>>>>>> 17b30e714d47b973d0937f18062f206c2194506a
-
 
 | Variable Name | Description |
 |------------|---------------|
