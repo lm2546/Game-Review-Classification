@@ -203,7 +203,7 @@ From the Figure 13 below, it can be easily acknowledged that some common words l
 Using the Naïve Bayes classifier, the evaluation results were slightly lower than those of the Linear SVC and Logistic models, but higher than those of the Decision Tree model (79% for precision and 81% for accuracy). The confusion matrix and feature importance are shown below. 
 
 <p align="center">
-   <img src=Visualizations/NB_CM.png alt="Figure 15: Confusion Matrix of Naïve Bayes"/>
+   <img src=Visualizations/NB_CM.jpg alt="Figure 15: Confusion Matrix of Naïve Bayes"/>
 </p>
 <p align="center"> Figure 15: Confusion Matrix of Naïve Bayes </p>
 
@@ -211,7 +211,7 @@ Using the Naïve Bayes classifier, the evaluation results were slightly lower th
 Looking at Figure 14, words like “greedy”, “interactive” and “selling” are highly related to the type of the reviews, even if they might be ordered differently in different cross validation results, nonetheless, overlaps did exist. 
 
 <p align="center">
-   <img src=Visualizations/NB_Imp.png alt="Figure 16: Feature importance of Naïve Bayes"/>
+   <img src=Visualizations/NB_Imp.jpg alt="Figure 16: Feature importance of Naïve Bayes"/>
 </p>
 <p align="center"> Figure 16: Feature importance of Naïve Bayes </p>
 
