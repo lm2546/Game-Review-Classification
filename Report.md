@@ -14,6 +14,7 @@ In Steam, users give comments on games, which provide a reference for other new 
 The dataset used in the research is from the Steam game reviews which has more than 330 thousand rows. After checking out the basic layout of the dataset, a preprocess function is created to regularly express the review content. The characters except for the alphabet and multiple spaces are replaced. All letters are converted to lowercase. In table 1, it  shows the introduction of all the variables in the data. Also,  there is a small sample of data in figure 1.
 
 <br>
+
 <center>
 
 ![Figure 1:The five lines of the dataset](Visualizations/SampleData.png)
