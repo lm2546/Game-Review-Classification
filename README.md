@@ -13,7 +13,7 @@ Yongrui Chen (yc910)<br>
 ## Menu: 
 
 ### 1. Data Mungining
-[Originial Data(zip)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/data/steam_reviews.zip)
+[Originial Data(csv)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/data/steam_reviews.csv)
 [Code file(ipynb)](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/blob/main/Data_Munging.ipynb)
 
 ### 2. Decision Tree
