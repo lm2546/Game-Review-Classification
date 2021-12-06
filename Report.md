@@ -20,11 +20,11 @@ The dataset used in the research is from the Steam game reviews which has more t
 <p align="center">
    <img src=Visualizations/SampleData.png alt="Figure 1:The five lines of the dataset"/>
 </p>
-<center>
+
   
-Figure 1:The five lines of the dataset
+<p align="center">Figure 1:The five lines of the dataset</p>
   
-</center>
+
 
 <center>
 
