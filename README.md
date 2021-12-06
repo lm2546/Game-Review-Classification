@@ -1,9 +1,12 @@
 # ANLY580-Final-Project-Fall-2021
+# Classification of Game Review - Based on Steam Game Comments
 
 ## Group Member:
 Lin Meng (lm1398)<br>
 Haoyu Wang (hw468)<br>
 Yongrui Chen (yc910)<br>
+
+## Georgetown University, Washington D.C, 20007, U.S.A
 
 ## Proposal:
 
@@ -34,13 +37,6 @@ Yongrui Chen (yc910)<br>
 ### 7. Demo
 [Zip](https://github.com/lm2546/ANLY580-Final-Project-Fall-2021/releases/tag/V.2.1)
 ### 8. Report
-
-
-
-
-<p style="text-align: center;"><span style="font-size:40px;"><strong>Classification of Game Review - Based on Steam Game Comments</strong></span></p>
-<p style="text-align: center;"> Yongrui Chen, Lin Meng, Haoyu Wang</p>
-<p style="text-align: center;"> Georgetown University, Washington D.C, 20007, U.S.A</p>
 
 
 # Introduction 
