@@ -301,5 +301,4 @@ According to the experiment and visualization above, there are some words in rev
 ## Website
 1. Horev, Rani. “Bert Explained: State of the Art Language Model for NLP.” Medium. Towards Data Science, November 17, 2018. https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270. 
 
-<br>
 2. 
