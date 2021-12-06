@@ -236,14 +236,14 @@ To better understand the attention layer, an attention layer network were also c
 <p align="center">
    <img src=Visualizations\Neuron_view_bert.gif alt="Figure 19: Neuron View of BERT"  width="300" height="400"/>
 </p>
-<p align="center">Figure 19: Confusion Matrix of BERT </p>
+<p align="center">Figure 19: Neuron View of BERT </p>
 
 
 <p align="center">
 
    <img src=Visualizations\Model_view_bert.gif alt="Figure 20: Model View of BERT" width="700" height="700"/>
 </p>
-<p align="center">Figure 20: Confusion Matrix of BERT </p>
+<p align="center">Figure 20: Model View of BERT </p>
 
 
 
