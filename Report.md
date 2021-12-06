@@ -28,7 +28,6 @@ Figure 1:The five lines of the dataset
 |------------|---------------|
 | recommendation | Whether the reviewer recommended the game or not |
 | review | The content of the review |<br>
-
 Table 1: Data Variable Description
 
 </center>
@@ -42,6 +41,7 @@ To figure out the meaningless reviews, a histogram of text length is created. Fi
 Figure 2:Review lengths distribution
 
 </center>
+
 After obtaining the clean dataset, two WordClouds for recommended reviews and non-recommended reviews are created, showing the frequency of words. It can be seen that words like the game, play, time are significant in both recommended and non-recommended reviews. Words like a friend, good, fun which have positive meanings are shown in recommended reviews, while negative words like don’t, bad and Rockstar show in non-recommended reviews.
 
 <center>
