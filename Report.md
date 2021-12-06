@@ -22,8 +22,8 @@ The dataset used in the research is from the Steam game reviews which has more t
 <p align="center"> Figure 1:The five lines of the dataset</p>
 
  
-  
-<div style="text-align: center;">
+<p align="center"> Table 1: Data Variable Description </p>
+<div align="center">
 	<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
 		<tbody>
 			<tr>
@@ -42,7 +42,6 @@ The dataset used in the research is from the Steam game reviews which has more t
 	</table>
 </div>
 
-Table 1: Data Variable Description
 
 
 <br>
