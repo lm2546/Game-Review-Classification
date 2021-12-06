@@ -98,7 +98,7 @@ Naïve Bayes models are called ‘naïve’ algorithms because they make an assu
 
 
 <p align="center">
-   <img src=Visualizations/NavieBayes.jpg alt="Figure 5: Bayes Theorem"/>
+   <img src=Visualizations/NavieBayes.png alt="Figure 5: Bayes Theorem"/>
 </p>
 <p align="center"> Figure 5: Bayes Theorem</p>
 
@@ -117,14 +117,14 @@ Before feeding word sequences into BERT, 15% of the words in each sequence are r
 The BERT loss function takes into consideration only the prediction of the masked values and ignores the prediction of the non-masked words. As a consequence, the model converges slower than directional models, a characteristic that is offset by its increased context-awareness.
 
 <p align="center">
-   <img src=Visualizations/BERT1.jpg alt="Figure 6: BERT Masked LM"/>
+   <img src=Visualizations/BERT1.png alt="Figure 6: BERT Masked LM"/>
 </p>
 <p align="center"> Figure 6: BERT Masked LM </p>
 
 In the BERT training process, the model receives pairs of sentences as input and learns to predict if the second sentence in the pair is the subsequent sentence in the original document. During training, 50% of the inputs are a pair in which the second sentence is the subsequent sentence in the original document, while in the other 50% a random sentence from the corpus is chosen as the second sentence. The assumption is that the random sentence will be disconnected from the first sentence.
 
 <p align="center">
-   <img src=Visualizations/BERT2.jpg alt="Figure 7: Next Sentence Prediction (NSP)"/>
+   <img src=Visualizations/BERT2.png alt="Figure 7: Next Sentence Prediction (NSP)"/>
 </p>
 <p align="center"> Figure 7: Next Sentence Prediction (NSP) </p>
 
