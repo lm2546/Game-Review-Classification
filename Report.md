@@ -253,7 +253,7 @@ To better understand the attention layer, an attention layer network were also c
 According to the experiment and visualization above, there are some words in review that are highly related to the recommendation or not. It is possible to predict the recommendation by the words in the review. In table 2, the comparison between different model performances is created showing the accuracy, precision, and F1 score of each model. After comparing the evaluation score, time consumption, interpretability, and visualization performance, it can be concluded that logistic regression will be the best choice which is significantly higher performance in the comparing variables and only cost a little time to show the result.
 
 <p align="center"> Table 2: Evaluation of model </p>
-<div>
+<div align="center">
 	<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
 		<tbody>
 			<tr>
