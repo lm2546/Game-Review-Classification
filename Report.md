@@ -234,14 +234,14 @@ The total epochs were set as 10, and in the base epoch, the average training los
 
 To better understand the attention layer, an attention layer network were also created, which has 12 layers and 12 heads.
 <p align="center">
-   <img src=Visualizations\Neuron_view_bert.gif alt="Figure 19: Confusion Matrix of BERT"  width="300" height="400"/>
+   <img src=Visualizations\Neuron_view_bert.gif alt="Figure 19: Neuron View of BERT"  width="300" height="400"/>
 </p>
 <p align="center">Figure 19: Confusion Matrix of BERT </p>
 
 
 <p align="center">
 
-   <img src=Visualizations\Model_view_bert.gif alt="Figure 20: Confusion Matrix of BERT" width="700" height="700"/>
+   <img src=Visualizations\Model_view_bert.gif alt="Figure 20: Model View of BERT" width="700" height="700"/>
 </p>
 <p align="center">Figure 20: Confusion Matrix of BERT </p>
 
@@ -252,7 +252,7 @@ To better understand the attention layer, an attention layer network were also c
 
 According to the experiment and visualization above, there are some words in review that are highly related to the recommendation or not. It is possible to predict the recommendation by the words in the review. In table 2, the comparison between different model performances is created showing the accuracy, precision, and F1 score of each model. After comparing the evaluation score, time consumption, interpretability, and visualization performance, it can be concluded that logistic regression will be the best choice which is significantly higher performance in the comparing variables and only cost a little time to show the result.
 
-<p align="center"> Table 2: Evaluation of model </p>
+<p align="center"> Table 2: Comparison of Models </p>
 <div align="center">
 	<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
 		<tbody>
