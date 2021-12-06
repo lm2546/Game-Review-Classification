@@ -1,4 +1,3 @@
-# ANLY580-Final-Project-Fall-2021
 # Classification of Game Review - Based on Steam Game Comments
 
 ## Group Member:
