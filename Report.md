@@ -48,7 +48,7 @@ To figure out the meaningless reviews, a histogram of text length is created. Fi
 
 
 <p align="center">
-   <img src=Visualizations/Histogram.png alt="Figure 2:Review lengths distribution"/>
+   <img src=Visualizations/Histogram.jpg alt="Figure 2:Review lengths distribution"/>
 </p>
 <p align="center"> Figure 2:Review lengths distribution</p>
 
@@ -98,7 +98,7 @@ Naïve Bayes models are called ‘naïve’ algorithms because they make an assu
 
 
 <p align="center">
-   <img src=Visualizations/NavieBayes.png alt="Figure 5: Bayes Theorem"/>
+   <img src=Visualizations/NavieBayes.jpg alt="Figure 5: Bayes Theorem"/>
 </p>
 <p align="center"> Figure 5: Bayes Theorem</p>
 
@@ -117,14 +117,14 @@ Before feeding word sequences into BERT, 15% of the words in each sequence are r
 The BERT loss function takes into consideration only the prediction of the masked values and ignores the prediction of the non-masked words. As a consequence, the model converges slower than directional models, a characteristic that is offset by its increased context-awareness.
 
 <p align="center">
-   <img src=Visualizations/BERT1.png alt="Figure 6: BERT Masked LM"/>
+   <img src=Visualizations/BERT1.jpg alt="Figure 6: BERT Masked LM"/>
 </p>
 <p align="center"> Figure 6: BERT Masked LM </p>
 
 In the BERT training process, the model receives pairs of sentences as input and learns to predict if the second sentence in the pair is the subsequent sentence in the original document. During training, 50% of the inputs are a pair in which the second sentence is the subsequent sentence in the original document, while in the other 50% a random sentence from the corpus is chosen as the second sentence. The assumption is that the random sentence will be disconnected from the first sentence.
 
 <p align="center">
-   <img src=Visualizations/BERT2.png alt="Figure 7: Next Sentence Prediction (NSP)"/>
+   <img src=Visualizations/BERT2.jpg alt="Figure 7: Next Sentence Prediction (NSP)"/>
 </p>
 <p align="center"> Figure 7: Next Sentence Prediction (NSP) </p>
 
@@ -135,7 +135,7 @@ In the BERT training process, the model receives pairs of sentences as input and
 After applying the Linear SVC model onto the game reviews, the precision and accuracy of the model is 82% and 85% respectively. In the meanwhile, a confusion matrix(Figure 8) and feature importance bar plots(Figure 9) were created to provide a more readable interpretation. 
 
 <p align="center">
-   <img src=Visualizations/SVM_cm.png alt="Figure 8: Confusion Matrix of Linear SVC"/>
+   <img src=Visualizations/SVM_cm.jpg alt="Figure 8: Confusion Matrix of Linear SVC"/>
 </p>
 <p align="center"> Figure 8: Confusion Matrix of Linear SVC </p>
 
@@ -144,7 +144,7 @@ From the Figure 8 below, it is obvious that the top 5 most crucial words support
 
 
 <p align="center">
-   <img src=Visualizations/SVM_Imp.png alt="Figure 9: Feature importance of Linear SVC"/>
+   <img src=Visualizations/SVM_Imp.jpg alt="Figure 9: Feature importance of Linear SVC"/>
 </p>
 <p align="center"> Figure 9: Feature importance of Linear SVC </p>
 
@@ -155,14 +155,14 @@ The evaluation of the Logistic Regression model is nearly the same as that of th
 
 
 <p align="center">
-   <img src=Visualizations/Logistic_cm.png alt="Figure 10: Confusion Matrix of Logistic Regression"/>
+   <img src=Visualizations/Logistic_cm.jpg alt="Figure 10: Confusion Matrix of Logistic Regression"/>
 </p>
 <p align="center"> Figure 10: Confusion Matrix of Logistic Regression </p>
 
 In accordance with the Figure 10 below, the blue curve stands for the result of our prediction. The further the blue curve is away from the diagonal, the better the model performed. Therefore, it can be concluded that the Logistic Regression model had a relatively excellent performance. 
 
 <p align="center">
-   <img src=Visualizations/Logistic_ROC.png alt="Figure 11: ROC of Logistic Regression"/>
+   <img src=Visualizations/Logistic_ROC.jpg alt="Figure 11: ROC of Logistic Regression"/>
 </p>
 <p align="center"> Figure 11: ROC of Logistic Regression </p>
 
@@ -172,7 +172,7 @@ From the Figure 11 below, evidently, the most critical words supporting recommen
 
 
 <p align="center">
-   <img src=Visualizations/Logistic_Imp.png alt="Figure 12: Feature importance of Logistic Regression"/>
+   <img src=Visualizations/Logistic_Imp.jpg alt="Figure 12: Feature importance of Logistic Regression"/>
 </p>
 <p align="center"> Figure 12: Feature importance of Logistic Regression </p>
 
@@ -184,7 +184,7 @@ From the Figure 11 below, evidently, the most critical words supporting recommen
 When the dataset is super large, the training process of the Decision Tree model will be relatively highly time-consuming and the tree plot could be less understandable. Hence, the visualization of the decision tree falls to accuracy and feature importance of cross-validation. In line with Figure 12, the accuracy of cross-validation is 76% which is lower than that of the Logistic and Linear SVC Model. However, the bar plot of feature importance told us a similar story. 
 
 <p align="center">
-   <img src=Visualizations/DT_CM.png alt="Figure 13: Confusion Matrix of Decision Tree"/>
+   <img src=Visualizations/DT_CM.jpg alt="Figure 13: Confusion Matrix of Decision Tree"/>
 </p>
 <p align="center"> Figure 13: Confusion Matrix of Decision Tree </p>
 
@@ -192,7 +192,7 @@ When the dataset is super large, the training process of the Decision Tree model
 From the Figure 13 below, it can be easily acknowledged that some common words like “money”, “best”, “fun”, “great”, “love” and “superb” were deeply involved in reviews, although they might be within a different order in different cross validation results.
 
 <p align="center">
-   <img src=Visualizations/DT_Imp.png alt="Figure 14: Feature importance of Decision Tree"/>
+   <img src=Visualizations/DT_Imp.jpg alt="Figure 14: Feature importance of Decision Tree"/>
 </p>
 <p align="center"> Figure 14: Feature importance of Decision Tree </p>
 
