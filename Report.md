@@ -24,11 +24,30 @@ The dataset used in the research is from the Steam game reviews which has more t
  
   
 
-
-| Variable Name | Description |
-|------------|---------------|
-| recommendation | Whether the reviewer recommended the game or not |
-| review | The content of the review |<br>
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+	<tbody>
+		<tr>
+			<td><strong>Variable Name</strong></td>
+			<td><strong>Description</strong></td>
+		</tr>
+		<tr>
+			<td>recommendation</td>
+			<td>Whether the reviewer recommended the game or not</td>
+		</tr>
+		<tr>
+			<td>review</td>
+			<td>
+			<table>
+				<tbody>
+					<tr>
+						<td>The content of the review</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
   
 
 Table 1: Data Variable Description
