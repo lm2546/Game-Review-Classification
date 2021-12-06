@@ -31,8 +31,8 @@ The dataset used in the research is from the Steam game reviews which has more t
 			<td><strong>Description</strong></td>
 		</tr>
 		<tr>
-			<td>recommendation</td>
-			<td>Whether the reviewer recommended the game or not</td>
+			<td> recommendation </td>
+			<td> Whether the reviewer recommended the game or not </td>
 		</tr>
 		<tr>
 			<td>review</td>
@@ -40,7 +40,7 @@ The dataset used in the research is from the Steam game reviews which has more t
 			<table>
 				<tbody>
 					<tr>
-						<td>The content of the review</td>
+						<td> The content of the review </td>
 					</tr>
 				</tbody>
 			</table>
