@@ -35,9 +35,7 @@ The dataset used in the research is from the Steam game reviews which has more t
 | recommendation | Whether the reviewer recommended the game or not |
 | review | The content of the review |<br>
   
- </center>
- 
- <center>
+
 Table 1: Data Variable Description
 
 
