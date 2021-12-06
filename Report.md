@@ -241,7 +241,7 @@ To better understand the attention layer, an attention layer network were also c
 
 <p align="center">
 
-   <img src=Visualizations\Model_view_bert.gif alt="Figure 20: Confusion Matrix of BERT width="700" height="700"/>
+   <img src=Visualizations\Model_view_bert.gif alt="Figure 20: Confusion Matrix of BERT" width="700" height="700"/>
 </p>
 <p align="center">Figure 20: Confusion Matrix of BERT </p>
 
