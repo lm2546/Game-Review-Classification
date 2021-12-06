@@ -16,12 +16,6 @@ The dataset used in the research is from the Steam game reviews which has more t
 <br>
 
 
-<p align="center">
-   <img src=Visualizations/SampleData.png alt="Figure 1:The five lines of the dataset"/>
-</p>
-<p align="center"> Figure 1:The five lines of the dataset</p>
-
- 
 <p align="center"> Table 1: Data Variable Description </p>
 <div align="center">
 	<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
@@ -42,7 +36,10 @@ The dataset used in the research is from the Steam game reviews which has more t
 	</table>
 </div>
 
-
+<p align="center">
+   <img src=Visualizations/SampleData.png alt="Figure 1:The five lines of the dataset"/>
+</p>
+<p align="center"> Figure 1:The five lines of the dataset</p>
 
 <br>
 To figure out the meaningless reviews, a histogram of text length is created. Figure 2 shows the distribution of review length. There are many reviews under 5 words, which are not long enough to convey sentiments. Hence, only the reviews with more than 5 words will be used in the following analysis.
