@@ -18,9 +18,13 @@ The dataset used in the research is from the Steam game reviews which has more t
 <center>
 
 ![Figure 1:The five lines of the dataset](Visualizations/SampleData.png)
+ 
+</center>
 
+<center>
+  
 Figure 1:The five lines of the dataset
-
+  
 </center>
 
 <center>
