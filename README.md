@@ -6,7 +6,7 @@ Lin Meng (lm1398)<br>
 Haoyu Wang (hw468)<br>
 Yongrui Chen (yc910)<br>
 
-## Georgetown University, Washington D.C, 20007, U.S.A
+### Georgetown University, Washington D.C, 20007, U.S.A
 
 ## Proposal:
 
