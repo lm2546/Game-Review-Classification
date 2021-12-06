@@ -15,15 +15,12 @@ The dataset used in the research is from the Steam game reviews which has more t
 
 <br>
 
-<<<<<<< HEAD
 
 <p align="center">
    <img src=Visualizations/SampleData.png alt="Figure 1:The five lines of the dataset"/>
 </p>
 <p align="center"> Figure 1:The five lines of the dataset</p>
 
-
-=======
  
 
 <p align="center">
@@ -49,16 +46,14 @@ To figure out the meaningless reviews, a histogram of text length is created. Fi
 
 
 
-<<<<<<< HEAD
+
 <p align="center">
    <img src=Visualizations/Histogram.png alt="Figure 2:Review lengths distribution"/>
 </p>
 <p align="center"> Figure 2:Review lengths distribution</p>
 
 
-=======
-</center>
->>>>>>> 17b30e714d47b973d0937f18062f206c2194506a
+
 
 After obtaining the clean dataset, two WordClouds for recommended reviews and non-recommended reviews are created, showing the frequency of words. It can be seen that words like the game, play, time are significant in both recommended and non-recommended reviews. Words like a friend, good, fun which have positive meanings are shown in recommended reviews, while negative words like don’t, bad and Rockstar show in non-recommended reviews.
 
