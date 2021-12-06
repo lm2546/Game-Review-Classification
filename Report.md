@@ -184,7 +184,7 @@ From the Figure 11 below, evidently, the most critical words supporting recommen
 When the dataset is super large, the training process of the Decision Tree model will be relatively highly time-consuming and the tree plot could be less understandable. Hence, the visualization of the decision tree falls to accuracy and feature importance of cross-validation. In line with Figure 12, the accuracy of cross-validation is 76% which is lower than that of the Logistic and Linear SVC Model. However, the bar plot of feature importance told us a similar story. 
 
 <p align="center">
-   <img src=Visualizations/DT_cm.png alt="Figure 13: Confusion Matrix of Decision Tree"/>
+   <img src=Visualizations/DT_CM.png alt="Figure 13: Confusion Matrix of Decision Tree"/>
 </p>
 <p align="center"> Figure 13: Confusion Matrix of Decision Tree </p>
 
@@ -203,7 +203,7 @@ From the Figure 13 below, it can be easily acknowledged that some common words l
 Using the Naïve Bayes classifier, the evaluation results were slightly lower than those of the Linear SVC and Logistic models, but higher than those of the Decision Tree model (79% for precision and 81% for accuracy). The confusion matrix and feature importance are shown below. 
 
 <p align="center">
-   <img src=Visualizations/NB_cm.png alt="Figure 15: Confusion Matrix of Naïve Bayes"/>
+   <img src=Visualizations/NB_CM.png alt="Figure 15: Confusion Matrix of Naïve Bayes"/>
 </p>
 <p align="center"> Figure 15: Confusion Matrix of Naïve Bayes </p>
 
