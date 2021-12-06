@@ -257,160 +257,40 @@ According to the experiment and visualization above, there are some words in rev
 	<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
 		<tbody>
 			<tr>
-				<td>Variable Name</td>
-				<td>Type</td>
-				<td>Summary</td>
-				<td>Range</td>
-				<td>Example</td>
+				<td><strong>Model</strong></td>
+				<td><strong>Accuracy</strong></td>
+				<td><strong>Precision</strong></td>
+				<td><strong>F1 Score</strong></td>
 			</tr>
 			<tr>
-				<td>age</td>
-				<td>numeric</td>
-				<td>age</td>
-				<td>17 ~ 98</td>
-				<td>60</td>
+				<td>Decision Tree</td>
+				<td>0.76</td>
+				<td>0.76</td>
+				<td>0.83</td>
 			</tr>
 			<tr>
-				<td>job</td>
-				<td>str</td>
-				<td>type of job</td>
-				<td>
-				<p>housemaid, services, admin, blue-collar, technician, retired, management, unemployed, self-employed, unknown, entrepreneur, student</p>
-				</td>
-				<td>retired</td>
+				<td>Naive Bayes</td>
+				<td>0.79</td>
+				<td>0.81</td>
+				<td>0.85</td>
 			</tr>
 			<tr>
-				<td>marital status</td>
-				<td>str</td>
-				<td>marital status</td>
-				<td>married, single, divorced, unknown</td>
-				<td>married</td>
+				<td>BERT</td>
+				<td>0.81</td>
+				<td>0.78</td>
+				<td>0.77</td>
 			</tr>
 			<tr>
-				<td>education</td>
-				<td>str</td>
-				<td>education</td>
-				<td>basic.4y, high.school, basic.6y, basic.9y, professional.course, unknown, university.degree, illiterate</td>
-				<td>university degree</td>
+				<td>Linear SVC</td>
+				<td>0.82</td>
+				<td>0.85</td>
+				<td>0.87</td>
 			</tr>
 			<tr>
-				<td>default</td>
-				<td>str</td>
-				<td>whether credits are in default?</td>
-				<td>no, unknown, yes</td>
-				<td>no</td>
-			</tr>
-			<tr>
-				<td>housing</td>
-				<td>str</td>
-				<td>whether has a housing loan?</td>
-				<td>no, yes, unknown</td>
-				<td>yes</td>
-			</tr>
-			<tr>
-				<td>loan</td>
-				<td>str</td>
-				<td>whether has a personal loan?</td>
-				<td>no, yes, unknown</td>
-				<td>yes</td>
-			</tr>
-			<tr>
-				<td>contact</td>
-				<td>str</td>
-				<td>contact communication type</td>
-				<td>telephone, cellular</td>
-				<td>cellular</td>
-			</tr>
-			<tr>
-				<td>month</td>
-				<td>str</td>
-				<td>last contact month</td>
-				<td>may, jun, jul, aug, oct, nov, dec, mar, apr, sep</td>
-				<td>May</td>
-			</tr>
-			<tr>
-				<td>day_of_week</td>
-				<td>str</td>
-				<td>last contact day of week</td>
-				<td>mon, tue, wed, thu, fri</td>
-				<td>Mon</td>
-			</tr>
-			<tr>
-				<td>duration</td>
-				<td>numeric</td>
-				<td>last contact duration (in seconds)</td>
-				<td>0 ~ 4918</td>
-				<td>250</td>
-			</tr>
-			<tr>
-				<td>campaign</td>
-				<td>numeric</td>
-				<td>number of contacts performed during this campaign for this client</td>
-				<td>1 ~ 56</td>
-				<td>38</td>
-			</tr>
-			<tr>
-				<td>pdays</td>
-				<td>numeric</td>
-				<td>number of days that passed by after the client was last contacted from a previous campaign</td>
-				<td>0 ~ 999</td>
-				<td>290</td>
-			</tr>
-			<tr>
-				<td>previous</td>
-				<td>numeric</td>
-				<td>number of contacts performed before this campaign and for this client</td>
-				<td>0 ~ 7</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>poutcome</td>
-				<td>str</td>
-				<td>outcome of the previous marketing campaign</td>
-				<td>nonexistent, failure, success</td>
-				<td>nonexistent</td>
-			</tr>
-			<tr>
-				<td>emp.var.rate</td>
-				<td>numeric</td>
-				<td>employment variation rate - quarterly indicator</td>
-				<td>-3.4 ~ 1.4</td>
-				<td>0</td>
-			</tr>
-			<tr>
-				<td>cons.price.idx</td>
-				<td>numeric</td>
-				<td>consumer price index - monthly indicator</td>
-				<td>92201 ~ 94767</td>
-				<td>93000</td>
-			</tr>
-			<tr>
-				<td>cons.confi.idx</td>
-				<td>numeric</td>
-				<td>consumer confidence index - monthly indicator</td>
-				<td>-50.8 ~- 26.9</td>
-				<td>-40</td>
-			</tr>
-			<tr>
-				<td>euribor3m</td>
-				<td>numeric</td>
-				<td>euribor 3 month rate - daily indicator</td>
-				<td>0.634 ~ 5045</td>
-				<td>20</td>
-			</tr>
-			<tr>
-				<td>nr.employed</td>
-				<td>numeric</td>
-				<td>number of employees - quarterly indicator</td>
-				<td>4963.6 ~ 5228.1</td>
-				<td>5000</td>
-			</tr>
-			<tr>
-				<td>y</td>
-				<td>str</td>
-				<td>whether the client subscribed a term deposit</td>
-				<td>yes,no</td>
-				<td>yes</td>
+				<td>Logistic Regression</td>
+				<td>0.82</td>
+				<td>0.85</td>
+				<td>0.87</td>
 			</tr>
 		</tbody>
 	</table>
