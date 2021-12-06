@@ -28,6 +28,10 @@ Figure 1:The five lines of the dataset
 |------------|---------------|
 | recommendation | Whether the reviewer recommended the game or not |
 | review | The content of the review |<br>
+  
+ </center>
+ 
+ <center>
 Table 1: Data Variable Description
 
 </center>
