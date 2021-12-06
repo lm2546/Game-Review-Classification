@@ -297,8 +297,6 @@ According to the experiment and visualization above, there are some words in rev
 </div>
 
 # Reference 
-
-## Website
 1. Horev, Rani. “Bert Explained: State of the Art Language Model for NLP.” Medium. Towards Data Science, November 17, 2018. https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270. 
 
 2. Naive Bayes Algorithm: Intuition and Implementation in a Spam Detector. Victor Roman, February 7, 2019. https://towardsdatascience.com/naive-bayes-intuition-and-implementation-ac328f9c9718#:~:text=Strengths%20and%20Weaknesses%20of%20Naive%20Bayes&amp;text=Easy%20and%20quick%20way%20to,even%20with%20less%20training%20data.
