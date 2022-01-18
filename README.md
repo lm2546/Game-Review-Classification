@@ -1,9 +1,9 @@
 # Classification of Game Review - Based on Steam Game Comments
 
 ## Group Member:
+Yongrui Chen (yc910)<br>
 Lin Meng (lm1398)<br>
 Haoyu Wang (hw468)<br>
-Yongrui Chen (yc910)<br>
 
 ### Georgetown University, Washington D.C, 20007, U.S.A
 
